@@ -78,9 +78,9 @@ class BurpExtender(IBurpExtender, IHttpListener):
                         newRequestheader = newRequestheader.encode('utf-8').split('$$')						                      
                         Request24 = self.helpers.buildHttpMessage(newRequestheader, Body24)
                         Request47 = self.helpers.buildHttpMessage(newRequestheader, Body47)
-                        Request68_1 = self.helpers.buildHttpMessage(newRequestheader,Payload68_1)												
-                        Request68_2 = self.helpers.buildHttpMessage(newRequestheader,Payload68_2)												
-                        Request68_3 = self.helpers.buildHttpMessage(newRequestheader,Payload68_3)												
+                        Request68_1 = self.helpers.buildHttpMessage(newRequestheader,Body68_1)												
+                        Request68_2 = self.helpers.buildHttpMessage(newRequestheader,Body68_2)												
+                        Request68_3 = self.helpers.buildHttpMessage(newRequestheader,Body68_3)												
                     else:
                         Request24 = self.helpers.buildHttpMessage(request_header, Body24)
                         Request47 = self.helpers.buildHttpMessage(request_header, Body47)
