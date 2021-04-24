@@ -50,7 +50,7 @@ class BurpExtender(IBurpExtender, IHttpListener):
                 host = httpService.getHost()
 				
                 whitedomains = ['.baidu.com','.163.com']
-                blackuris = ['/abc']				
+                blackuris = ['shutdown','shutoff','stop']				
 
                 if response_is_json or request_contentType == 4:
                     random24 = seed()
