@@ -14,6 +14,8 @@
 
 ## 3. 为避免通过Post触发服务端的/shutdown等路径导致服务下线，代码中添加了相应的黑名单路径
 
+## 4. 添加一个文件，用于将想要测试的url地址流量转向burpsuite插件，注意该文件需要手动使用python触发
+
 
 ![fj](https://user-images.githubusercontent.com/20917372/110191993-8e0e5500-7e66-11eb-9bfc-1d250743aef5.png)
 
