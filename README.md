@@ -6,6 +6,9 @@
 ## 插件安装
 
 插件使用了python的requests库，请在BurpSuite里配置，如下图所示
+```
+pip install requests==2.21.0
+```
 
 ![image](https://user-images.githubusercontent.com/20917372/115944170-bf121a00-a4e6-11eb-8dbb-2da5edd55f70.png)
 
